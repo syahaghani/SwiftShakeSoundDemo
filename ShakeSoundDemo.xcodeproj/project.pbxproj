@@ -14,6 +14,8 @@
 		499EB89F1C23AD1C0078DAE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499EB89D1C23AD1C0078DAE4 /* LaunchScreen.storyboard */; };
 		499EB8AA1C23AD1C0078DAE4 /* ShakeSoundDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499EB8A91C23AD1C0078DAE4 /* ShakeSoundDemoTests.swift */; };
 		499EB8B51C23AD1C0078DAE4 /* ShakeSoundDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499EB8B41C23AD1C0078DAE4 /* ShakeSoundDemoUITests.swift */; };
+		499EB8C31C23AD410078DAE4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499EB8C21C23AD410078DAE4 /* AVFoundation.framework */; };
+		499EB8C51C23ADD20078DAE4 /* shakesound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 499EB8C41C23ADD20078DAE4 /* shakesound.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		499EB8B01C23AD1C0078DAE4 /* ShakeSoundDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakeSoundDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		499EB8B41C23AD1C0078DAE4 /* ShakeSoundDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeSoundDemoUITests.swift; sourceTree = "<group>"; };
 		499EB8B61C23AD1C0078DAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		499EB8C21C23AD410078DAE4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		499EB8C41C23ADD20078DAE4 /* shakesound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shakesound.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				499EB8C31C23AD410078DAE4 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +82,7 @@
 		499EB8881C23AD1C0078DAE4 = {
 			isa = PBXGroup;
 			children = (
+				499EB8C21C23AD410078DAE4 /* AVFoundation.framework */,
 				499EB8931C23AD1C0078DAE4 /* ShakeSoundDemo */,
 				499EB8A81C23AD1C0078DAE4 /* ShakeSoundDemoTests */,
 				499EB8B31C23AD1C0078DAE4 /* ShakeSoundDemoUITests */,
@@ -102,6 +108,7 @@
 				499EB8981C23AD1C0078DAE4 /* Main.storyboard */,
 				499EB89B1C23AD1C0078DAE4 /* Assets.xcassets */,
 				499EB89D1C23AD1C0078DAE4 /* LaunchScreen.storyboard */,
+				499EB8C41C23ADD20078DAE4 /* shakesound.wav */,
 				499EB8A01C23AD1C0078DAE4 /* Info.plist */,
 			);
 			path = ShakeSoundDemo;
@@ -235,6 +242,7 @@
 				499EB89F1C23AD1C0078DAE4 /* LaunchScreen.storyboard in Resources */,
 				499EB89C1C23AD1C0078DAE4 /* Assets.xcassets in Resources */,
 				499EB89A1C23AD1C0078DAE4 /* Main.storyboard in Resources */,
+				499EB8C51C23ADD20078DAE4 /* shakesound.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +409,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ShakeSoundDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adiksuperman.com.my.ShakeSoundDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +421,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ShakeSoundDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adiksuperman.com.my.ShakeSoundDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
